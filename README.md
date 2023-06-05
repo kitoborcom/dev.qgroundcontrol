@@ -122,16 +122,16 @@ This will override the original Motor Component
     “ _CustomMotorComponent.qml_ ” from the **Github Repository**
 2. In custom/qgroundcontrol.exclusion, add this line:
 ```
-< file alias= "MotorComponent.qml" > ../src/AutoPilotPlugins/Common/MotorComponent.qml </ file >
+<file alias= "MotorComponent.qml"> ../src/AutoPilotPlugins/Common/MotorComponent.qml </file >
 ```
 3. In custom/custom.qrc, under the section with the prefix “qml”, add this line:
 ```
-< file > CustomMotorComponent.qml </ file >
+<file> CustomMotorComponent.qml </file >
 ```
 4. In the terminal window navigate to the [QGroundControl Repository]/custom and run this
     command:
 ```
-python updateqrc. py
+python updateqrc.py
 ```
 
 ### Passcode Menu QML
@@ -142,5 +142,5 @@ This will be a new view inside the application setup page
     **Repository**
 2. In custom/custom.qrc, under the section with the prefix “qml”, add this line:
 ```
-< file alias= "PasswordSettings.qml" > res/PasswordSettings.qml </ file >
+<file alias= "PasswordSettings.qml" > res/PasswordSettings.qml </file>
 ```
