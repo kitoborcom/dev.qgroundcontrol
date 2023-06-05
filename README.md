@@ -1,7 +1,8 @@
 # QGroundControl Ground Control Station
 
-*QGroundControl* (QGC) is an intuitive and powerful ground control station (GCS) for UAVs.
+[![Releases](https://img.shields.io/github/release/mavlink/QGroundControl.svg)](https://github.com/mavlink/QGroundControl/releases)
 
+*QGroundControl* (QGC) is an intuitive and powerful ground control station (GCS) for UAVs.
 
 Key Links:
 * [Website](http://qgroundcontrol.com) (qgroundcontrol.com)
